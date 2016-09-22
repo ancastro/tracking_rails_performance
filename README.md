@@ -1,24 +1,16 @@
-# README
+# Tracking Rails Performance
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app testing Rails performance and monitoring it with the tool [Skylight](https://www.skylight.io/)
 
-Things you may want to cover:
+# Versions
+This app uses `Rails 5.0.0.1` and `Ruby 2.2.4.p230`
 
-* Ruby version
+# Todo
+- [ ] Skylight Integration
+- [ ] N+1 queries
+- [ ] Fragment Caching
+- [ ] Grouping Transactions
+- [ ] Add Indexes
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Credits
+Lessons were learned from [Tracking Common Rails Performance Issues with Skylight](https://www.sitepoint.com/tracking-common-rails-performance-issues-with-skylight/)
